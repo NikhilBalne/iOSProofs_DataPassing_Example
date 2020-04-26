@@ -13,6 +13,7 @@
 		CB28101F24558F5F00EE8BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB28101D24558F5F00EE8BBB /* Main.storyboard */; };
 		CB28102124558F6200EE8BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB28102024558F6200EE8BBB /* Assets.xcassets */; };
 		CB28102424558F6200EE8BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB28102224558F6200EE8BBB /* LaunchScreen.storyboard */; };
+		CB28102C24558FF800EE8BBB /* ColorChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28102B24558FF800EE8BBB /* ColorChangeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CB28102024558F6200EE8BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB28102324558F6200EE8BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB28102524558F6200EE8BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB28102B24558FF800EE8BBB /* ColorChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CB28101724558F5F00EE8BBB /* AppDelegate.swift */,
 				CB28101924558F5F00EE8BBB /* SceneDelegate.swift */,
 				CB28101B24558F5F00EE8BBB /* ViewController.swift */,
+				CB28102B24558FF800EE8BBB /* ColorChangeViewController.swift */,
 				CB28101D24558F5F00EE8BBB /* Main.storyboard */,
 				CB28102024558F6200EE8BBB /* Assets.xcassets */,
 				CB28102224558F6200EE8BBB /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				CB28101C24558F5F00EE8BBB /* ViewController.swift in Sources */,
 				CB28101824558F5F00EE8BBB /* AppDelegate.swift in Sources */,
+				CB28102C24558FF800EE8BBB /* ColorChangeViewController.swift in Sources */,
 				CB28101A24558F5F00EE8BBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

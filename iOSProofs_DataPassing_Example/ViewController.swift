@@ -15,6 +15,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    func backgroundColorChange(color:UIColor){
+        self.view.backgroundColor = color
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let ccvc = segue.destination as? ColorChangeViewController
+        ccvc?.fvc = self
+    }
 
 }
 
